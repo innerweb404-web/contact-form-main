@@ -1,0 +1,56 @@
+
+@media (min-width: 800px) {
+    body{
+        align-content: center;
+        height: 150%;
+        font-size: 2rem;
+    }
+    
+    label{
+        font-size: 1.5rem;
+    }
+
+    .error, sup{
+        font-size: 1rem;
+    }
+    .container{
+        max-width: 60%;
+        margin: 0;
+        height: 80%;
+    }
+    fieldset {
+        display: grid;
+        margin-bottom: 3rem;
+        border-radius: 1rem;
+    }
+
+    .userName{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .userName .input-group{
+        width: 50%;
+    }
+    .queryType .query-group {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        font-size: 1rem;
+    }
+    .queryType .query-group .input-group,
+    .queryType .query-group .input-group label{
+        width: 50%;
+        font-size: 1rem;
+    }
+    .consent-group{
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    button[type="submit"] {
+        height: 3rem;
+        font-size:1.5rem;
+    }
+}
+    
