@@ -40,14 +40,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Contact form screenshot](./screenshot.jpg)
+![Contact form screenshot](/Image%20solutions/desktop%20solution.JPG)
 
 ---
 
 ### Links
 
 - Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/contact-form-with-html-css-and-vanilla-javascript-validation-XXXXX)
-- Live Site URL: [Live Preview](https://yourusername.github.io/contact-form/)
+- Live Site URL: [Live Preview](https://innerweb404-web.github.io/contact-form-main/)
 
 ---
 
@@ -74,7 +74,7 @@ I also learned how to:
 - Smoothly scroll back to the top after submission
 - Display and auto-hide a success message
 
-Here’s an example of my validation logic:
+Here's an example of my border-red error message:
 
 ```js
 if (input.value.trim() === "") {
@@ -83,6 +83,8 @@ if (input.value.trim() === "") {
   input.style.borderColor = "red";
 }
 ```
+Here’s an example of my validation logic:
+
 
 ```js
 if (isValid) {
